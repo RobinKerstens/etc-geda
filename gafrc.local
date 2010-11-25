@@ -1,0 +1,14 @@
+(display "\n")
+(display "gafrc.local: Loading Local design environment\n")
+
+;; empty the library path and populate it with local paths
+;(reset-component-library)      ; WATCH OUT!
+
+;; Local symbol libraries
+;(component-library "./path/to/symdir")
+
+;; Local Hierarchical designs, underlying schematics
+;(source-library "./path/to/src/dir")
+
+
+(display "gafrc.local: Finished loading.\n")

@@ -1,0 +1,9 @@
+(display "\n")
+(display "gschemrc.local: Loading local design environment\n")
+
+
+;; Set default title block
+;(define default-titleblock "title-A2.sym")
+
+
+(display "gschemrc.local: Finished loading.\n")

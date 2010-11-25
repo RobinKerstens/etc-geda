@@ -1,0 +1,32 @@
+(display "\n")
+(display "gafrc: Loading Ingenium design environment for ")
+(display (getenv "USER"))
+(display "\n")
+
+
+;; empty the library path and populate it with local paths
+;(reset-component-library)      ; WATCH OUT!
+
+;; User symbol libraries
+(define libpath "${HOME}/Projects/geda/lib/symbols/") ;set symbol library path
+(component-library (build-path libpath "connectors"))
+(component-library (build-path libpath "io"))
+(component-library (build-path libpath "microcontrollers"))
+(component-library (build-path libpath "miscellaneous"))
+(component-library (build-path libpath "optoisolators"))
+(component-library (build-path libpath "transistors"))
+(component-library (build-path libpath "graphical"))
+(component-library (build-path libpath "title-block"))
+(component-library (build-path libpath "diodes"))
+
+;; Project symbol library
+;; Hierarchical designs, symbols
+(component-library "./sym")
+(component-library ".")
+
+;; Hierarchical designs, underlying schematics
+;(source-library "./src")
+(source-library ".")
+
+
+(display "gafrc: Finished loading.\n")

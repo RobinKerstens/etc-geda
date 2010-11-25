@@ -1,0 +1,11 @@
+(display "\n")
+(display "gschemrc: Loading Ingenium design environment for ")
+(display (getenv "USER"))
+(display "\n")
+
+
+;; Set default title block
+(define default-titleblock "title-block.sym")
+
+
+(display "gschemrc: Finished loading.\n")

@@ -1,0 +1,4 @@
+schematics myschematic.sch myschematic2.sch
+elements-dir ./fp
+output-name mypcb
+skip-m4
