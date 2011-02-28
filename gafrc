@@ -9,15 +9,16 @@
 
 ;; User symbol libraries
 (define libpath "${HOME}/Projects/geda/lib/symbols/") ;set symbol library path
-(component-library (build-path libpath "connectors"))
-(component-library (build-path libpath "io"))
-(component-library (build-path libpath "microcontrollers"))
-(component-library (build-path libpath "miscellaneous"))
-(component-library (build-path libpath "optoisolators"))
 (component-library (build-path libpath "transistors"))
-(component-library (build-path libpath "graphical"))
 (component-library (build-path libpath "title-block"))
+(component-library (build-path libpath "pmic"))
+(component-library (build-path libpath "optoisolators"))
+(component-library (build-path libpath "miscellaneous"))
+(component-library (build-path libpath "microcontrollers"))
+(component-library (build-path libpath "io"))
+(component-library (build-path libpath "graphical"))
 (component-library (build-path libpath "diodes"))
+(component-library (build-path libpath "connectors"))
 
 ;; Project symbol library
 ;; Hierarchical designs, symbols
