@@ -1,0 +1,29 @@
+(display "\n")
+(display "gafrc: Loading Pneumatic design environment for ")
+(display (getenv "USER"))
+(display "\n")
+
+
+;; empty the library path and populate it with local paths
+(reset-component-library)      ; WATCH OUT!
+
+;; User symbol libraries
+(define libpath "${HOME}/Projects/geda/lib/pneumatic-symbols/") ;set symbol library path
+(component-library (build-path libpath "valves"))
+(component-library (build-path libpath "title-block"))
+(component-library (build-path libpath "misc"))
+(component-library (build-path libpath "fittings"))
+(component-library (build-path libpath "cylinders"))
+(component-library (build-path libpath "air-preparation"))
+
+;; Project symbol library
+;; Hierarchical designs, symbols
+(component-library "./sym")
+(component-library ".")
+
+;; Hierarchical designs, underlying schematics
+;(source-library "./src")
+(source-library ".")
+
+
+(display "gafrc: Finished loading.\n")
