@@ -1,5 +1,5 @@
 (display "\n")
-(display "gafrc: Loading Ingenium design environment for ")
+(display "gafrc: Loading User environment for ")
 (display (getenv "USER"))
 (display "\n")
 
@@ -8,7 +8,7 @@
 ;(reset-component-library)      ; WATCH OUT!
 
 ;; User symbol libraries
-(define libpath "${HOME}/Projects/geda/lib/symbols/") ;set symbol library path
+(define libpath "${HOME}/.gEDA/lib/symbols/") ;set symbol library path
 (component-library (build-path libpath "transistors"))
 (component-library (build-path libpath "title-block"))
 (component-library (build-path libpath "pmic"))

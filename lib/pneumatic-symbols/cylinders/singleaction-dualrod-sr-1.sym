@@ -1,0 +1,31 @@
+v 20100214 2
+P 300 0 300 200 1 0 0
+{
+T 300 -100 5 10 0 0 180 0 1
+pintype=unknown
+T 300 255 5 10 0 1 90 0 1
+pinlabel=1
+T 250 105 5 8 0 1 90 6 1
+pinnumber=1
+T 300 -100 5 10 0 0 180 0 1
+pinseq=1
+}
+B 200 200 1000 400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 700 600 700 200 3 0 0 0 -1 -1
+L 0 400 1400 400 3 0 0 0 -1 -1
+T 200 650 8 10 1 1 0 0 1
+refdes=C?
+T 0 2100 8 10 0 0 0 0 1
+device=CYLINDER
+T 0 1900 8 10 0 0 0 0 1
+description=Single-Acting, Double Rod, Spring Return
+T 0 1500 8 10 0 0 0 0 1
+author=Daniel Fekete <thefekete AT gmail DOT com>
+T 0 1300 8 10 0 0 0 0 1
+dist-license=GPL
+T 0 1100 8 10 0 0 0 0 1
+use-license=unlimited
+L 700 600 900 200 3 0 0 0 -1 -1
+L 900 200 900 600 3 0 0 0 -1 -1
+L 900 600 1100 200 3 0 0 0 -1 -1
+L 1100 200 1100 600 3 0 0 0 -1 -1

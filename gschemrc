@@ -1,5 +1,5 @@
 (display "\n")
-(display "gschemrc: Loading Ingenium design environment for ")
+(display "gschemrc: Loading User environment for")
 (display (getenv "USER"))
 (display "\n")
 

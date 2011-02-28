@@ -1,3 +1,9 @@
 logs
 gschem-dialog-geometry
 gschem-recent-files
+*~
+*/*~
+*/*.bak
+*/*.log
+\#*#
+*-
