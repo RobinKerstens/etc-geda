@@ -5,7 +5,8 @@
 
 
 ;; Set default title block
-(define default-titleblock "title-block.sym")
+;;(define default-titleblock "title-block.sym")
+(define default-titleblock "")
 
 
 (display "gschemrc: Finished loading.\n")
