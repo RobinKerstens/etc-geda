@@ -22,6 +22,7 @@
 (component-library (build-path libpath "graphical"))
 (component-library (build-path libpath "diodes"))
 (component-library (build-path libpath "connectors"))
+(component-library (build-path libpath "communications"))
 
 ;; Project symbol library
 ;; Hierarchical designs, symbols
