@@ -13,7 +13,7 @@ pinseq=1
 P 1100 1800 800 1800 1 0 0
 {
 T 1100 1800 5 8 0 0 0 0 1
-pintype=io
+pintype=in
 T 745 1795 9 8 1 1 0 7 1
 pinlabel=CTS/Br
 T 845 1845 5 8 1 1 0 0 1
@@ -57,7 +57,7 @@ pinseq=5
 P 1100 200 800 200 1 0 0
 {
 T 1100 200 5 8 0 0 0 0 1
-pintype=io
+pintype=out
 T 745 195 9 8 1 1 0 7 1
 pinlabel=RTS/G
 T 845 245 5 8 1 1 0 0 1
