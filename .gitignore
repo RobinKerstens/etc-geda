@@ -4,6 +4,7 @@ gschem-recent-files
 *~
 */*~
 */*.bak
+*.backup
 */*.log
 \#*#
 *-
