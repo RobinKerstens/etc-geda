@@ -209,7 +209,7 @@ XBee Znet Pro
 T 300 4600 5 10 0 0 0 0 1
 device=XBEE
 T 300 4800 5 10 0 0 0 0 1
-footprint=xbee-pro.fp
+footprint=xbeepro
 T 300 5000 5 10 0 0 0 0 1
 author=Dan Fekete <thefekete AT gmail DOT com>
 T 300 5200 5 10 0 0 0 0 1
