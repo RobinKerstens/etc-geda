@@ -2,7 +2,7 @@
 TheFekete's gEDA Configuration
 ##############################
 
-This is my local ''~/.gEDA'' configuration directory. You can see my custom
+This is my local ``~/.gEDA`` configuration directory. You can see my custom
 symbols and footprints under lib/. Use at your own risk!
 
 Installation
@@ -11,5 +11,5 @@ Installation
 To use this on your machine:
 
   - clone the repo to your home dir
-  - backup your old config: ''mv .gEDA .gEDA_old''
+  - backup your old config: ``mv .gEDA .gEDA_old``
   - change the name of the repo's directory to .gEDA
