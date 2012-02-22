@@ -15,6 +15,7 @@
 (component-library (build-path libpath "transistors"))
 (component-library (build-path libpath "title-block"))
 (component-library (build-path libpath "relays"))
+(component-library (build-path libpath "power-rails"))
 (component-library (build-path libpath "pmic"))
 (component-library (build-path libpath "optoisolators"))
 (component-library (build-path libpath "miscellaneous"))
