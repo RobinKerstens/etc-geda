@@ -11,6 +11,7 @@
 (define libpath "${HOME}/.gEDA/lib/symbols/") ;set symbol library path
 (component-library (build-path libpath "xbee"))
 (component-library (build-path libpath "vishay"))
+(component-library (build-path libpath "tubes"))
 (component-library (build-path libpath "transistors"))
 (component-library (build-path libpath "title-block"))
 (component-library (build-path libpath "relays"))
