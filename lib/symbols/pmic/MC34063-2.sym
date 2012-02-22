@@ -1,0 +1,106 @@
+v 20100214 2
+B 300 200 900 1600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1200 1850 8 10 1 1 0 6 1
+refdes=U?
+T 300 2300 8 10 0 0 0 0 1
+description=Step-Up/-Down/Inverting Switching Regulator
+T 300 2500 8 10 0 0 0 0 1
+footprint=DIP8
+P 1500 1600 1200 1600 1 0 0
+{
+T 1295 1645 5 8 1 1 0 0 1
+pinnumber=1
+T 1145 1595 9 8 1 1 0 6 1
+pinlabel=SWc
+T 1150 1600 5 8 0 1 0 8 1
+pintype=in
+T 1300 1550 5 8 0 1 0 2 1
+pinseq=1
+}
+P 1500 1200 1200 1200 1 0 0
+{
+T 1295 1245 5 8 1 1 0 0 1
+pinnumber=2
+T 1145 1195 9 8 1 1 0 6 1
+pinlabel=SWe
+T 1150 1200 5 8 0 1 0 8 1
+pintype=io
+T 1300 1150 5 8 0 1 0 2 1
+pinseq=2
+}
+P 1500 800 1200 800 1 0 0
+{
+T 1295 845 5 8 1 1 0 0 1
+pinnumber=3
+T 1145 795 9 8 1 1 0 6 1
+pinlabel=TC
+T 1150 800 5 8 0 1 0 8 1
+pintype=io
+T 1300 750 5 8 0 1 0 2 1
+pinseq=3
+}
+P 1500 400 1200 400 1 0 0
+{
+T 1295 445 5 8 1 1 0 0 1
+pinnumber=4
+T 1145 395 9 8 1 1 0 6 1
+pinlabel=GND
+T 1150 400 5 8 0 1 0 8 1
+pintype=pwr
+T 1300 350 5 8 0 1 0 2 1
+pinseq=4
+}
+P 0 1600 300 1600 1 0 0
+{
+T 205 1645 5 8 1 1 0 6 1
+pinnumber=8
+T 355 1595 9 8 1 1 0 0 1
+pinlabel=Dc
+T 350 1600 5 8 0 1 0 2 1
+pintype=io
+T 200 1550 5 8 0 1 0 8 1
+pinseq=8
+}
+P 0 1200 300 1200 1 0 0
+{
+T 205 1245 5 8 1 1 0 6 1
+pinnumber=7
+T 355 1195 9 8 1 1 0 0 1
+pinlabel=Ipk
+T 350 1200 5 8 0 1 0 2 1
+pintype=io
+T 200 1150 5 8 0 1 0 8 1
+pinseq=7
+}
+P 0 800 300 800 1 0 0
+{
+T 205 845 5 8 1 1 0 6 1
+pinnumber=6
+T 355 795 9 8 1 1 0 0 1
+pinlabel=Vcc
+T 350 800 5 8 0 1 0 2 1
+pintype=pwr
+T 200 750 5 8 0 1 0 8 1
+pinseq=6
+}
+P 0 400 300 400 1 0 0
+{
+T 205 445 5 8 1 1 0 6 1
+pinnumber=5
+T 355 395 9 8 1 1 0 0 1
+pinlabel=CMP
+T 350 400 5 8 0 1 0 2 1
+pintype=io
+T 200 350 5 8 0 1 0 8 1
+pinseq=5
+}
+T 300 2100 8 10 0 0 0 0 1
+device=MC34063
+T 300 2700 8 10 0 0 0 0 1
+numslots=0
+T 300 150 9 8 1 0 0 2 1
+MC34063
+T 300 2900 8 10 0 0 0 0 1
+documentation=http://www.onsemi.com/pub/Collateral/MC34063A-D.PDF
+T 300 3100 8 10 0 0 0 0 1
+symversion=1.0
