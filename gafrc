@@ -27,6 +27,7 @@
 (component-library (build-path libpath "connectors"))
 (component-library (build-path libpath "communications"))
 (component-library (build-path libpath "audio"))
+(component-library (build-path libpath "7400"))
 
 ;; Project symbol library
 ;; Hierarchical designs, symbols
