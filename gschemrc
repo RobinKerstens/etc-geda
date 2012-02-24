@@ -3,10 +3,11 @@
 (display (getenv "USER"))
 (display "\n")
 
+;; Use custom colors
+(load (build-path (getenv "HOME") ".gEDA" "custom-colors"))
 
 ;; Set default title block
 ;;(define default-titleblock "title-block.sym")
 (define default-titleblock "")
-
 
 (display "gschemrc: Finished loading.\n")
