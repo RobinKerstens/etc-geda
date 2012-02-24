@@ -35,7 +35,7 @@
 (component-library ".")
 
 ;; Hierarchical designs, underlying schematics
-;(source-library "./src")
+(source-library "./src")
 (source-library ".")
 
 
