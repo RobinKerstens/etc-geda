@@ -364,7 +364,7 @@ ATmega168 TQFP Arduino
 T 300 7400 5 10 0 0 0 0 1
 device=ATMEGA168
 T 300 7200 5 10 0 0 0 0 1
-footprint=TQFP32
+footprint=TQFP32_7
 T 300 6400 5 10 0 0 0 0 1
 author=Dan Fekete <thefekete AT gmail DOT com>
 T 300 6800 5 10 0 0 0 0 1

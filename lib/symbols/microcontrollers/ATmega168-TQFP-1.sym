@@ -364,7 +364,7 @@ ATmega168 TQFP
 T 300 7700 5 10 0 0 0 0 1
 device=ATMEGA168
 T 300 7500 5 10 0 0 0 0 1
-footprint=TQFP32
+footprint=TQFP32_7
 T 300 6700 5 10 0 0 0 0 1
 author=Dan Fekete <thefekete AT gmail DOT com>
 T 300 7100 5 10 0 0 0 0 1
