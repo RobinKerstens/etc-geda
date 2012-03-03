@@ -1,0 +1,99 @@
+v 20100214 2
+P 300 1200 0 1200 1 0 1
+{
+T 50 1225 5 8 0 0 0 0 1
+pinseq=8
+T 250 1250 5 8 1 1 0 6 1
+pinnumber=10
+T 100 1000 5 10 0 1 0 0 1
+pinlabel=Vin+
+}
+P 300 400 0 400 1 0 1
+{
+T 150 425 5 8 0 0 0 0 1
+pinseq=7
+T 250 450 5 8 1 1 0 6 1
+pinnumber=9
+T 100 600 5 10 0 1 0 0 1
+pinlabel=Vin-
+}
+P 1500 800 1800 800 1 0 1
+{
+T 1075 825 5 8 0 0 0 0 1
+pinseq=2
+T 1500 850 5 8 1 1 0 0 1
+pinnumber=3
+T 1900 800 5 10 0 1 0 0 1
+pinlabel=OUTPUT
+}
+L 300 1400 300 200 3 0 0 0 -1 -1
+L 1500 800 300 1400 3 0 0 0 -1 -1
+L 350 400 450 400 3 0 0 0 -1 -1
+L 350 1200 450 1200 3 0 0 0 -1 -1
+L 1500 800 300 200 3 0 0 0 -1 -1
+P 700 1200 700 1500 1 0 1
+{
+T 611 1164 5 8 0 0 0 0 1
+pinseq=1
+T 725 1200 5 8 1 1 0 0 1
+pinnumber=1
+T 700 1500 5 10 0 1 0 0 1
+pinlabel=V+
+}
+P 1100 1000 1100 1300 1 0 1
+{
+T 1111 964 5 8 0 0 0 0 1
+pinseq=4
+T 1125 1000 5 8 1 1 0 0 1
+pinnumber=5
+T 1100 1300 5 10 0 1 0 0 1
+pinlabel=V+
+}
+P 900 500 900 200 1 0 1
+{
+T 725 400 5 8 0 0 0 0 1
+pinseq=3
+T 925 475 5 8 1 1 0 2 1
+pinnumber=4
+T 900 -100 5 10 0 1 0 0 1
+pinlabel=V-
+}
+P 500 300 500 0 1 0 1
+{
+T 325 300 5 8 0 0 0 0 1
+pinseq=5
+T 525 275 5 8 1 1 0 2 1
+pinnumber=7
+T 300 -200 5 10 0 1 0 0 1
+pinlabel=GND
+}
+T 300 2800 8 8 0 0 0 0 1
+device=LM3886
+T 500 800 9 8 1 0 0 1 1
+LM3886
+T 300 1400 8 10 1 1 0 0 1
+refdes=U?
+T 300 2650 8 8 0 0 0 0 1
+description=High-Performance 68W Audio Power Amplifier
+T 300 2500 8 8 0 0 0 0 1
+documentation=http://www.ti.com/lit/ds/symlink/lm3886.pdf
+T 300 2350 8 8 0 0 0 0 1
+footprint=-
+T 300 2200 8 8 0 0 0 0 1
+numslots=0
+T 300 2000 8 8 0 0 0 0 1
+author=Dan Fekete <thefekete@gmail.com>
+T 300 1850 8 8 0 0 0 0 1
+dist-license=GPL
+T 300 1700 8 8 0 0 0 0 1
+use-license=unlimited
+P 1300 700 1300 400 1 0 1
+{
+T 1125 600 5 8 0 0 0 0 1
+pinseq=6
+T 1325 675 5 8 1 1 0 2 1
+pinnumber=8
+T 1200 200 5 10 0 1 0 0 1
+pinlabel=MUTE
+}
+L 400 1250 400 1150 3 0 0 0 -1 -1
