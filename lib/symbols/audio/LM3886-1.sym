@@ -78,7 +78,7 @@ description=High-Performance 68W Audio Power Amplifier
 T 300 2500 8 8 0 0 0 0 1
 documentation=http://www.ti.com/lit/ds/symlink/lm3886.pdf
 T 300 2350 8 8 0 0 0 0 1
-footprint=-
+footprint=TO220-11FL-min
 T 300 2200 8 8 0 0 0 0 1
 numslots=0
 T 300 2000 8 8 0 0 0 0 1
